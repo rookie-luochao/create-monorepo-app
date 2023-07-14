@@ -61,7 +61,8 @@
           "build",
           "ci",
           "perf",
-          "conf"
+          "conf",
+          "chore"
         ]
       ]
     }
