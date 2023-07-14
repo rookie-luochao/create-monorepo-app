@@ -8,7 +8,5 @@ export function CreateBrowserRouter({ routes }: { routes: RouteObject[] }) {
     },
   });
 
-  return (
-    <RouterProvider router={router} />
-  )
+  return <RouterProvider router={router} />
 }
