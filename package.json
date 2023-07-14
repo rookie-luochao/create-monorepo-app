@@ -2,7 +2,9 @@
   "name": "monorepo-app",
   "private": true,
   "workspaces": {
-    "packages": ["packages/*"]
+    "packages": [
+      "packages/*"
+    ]
   },
   "scripts": {
     "openapi:webapp": "pnpm --filter webapp run openapi",
@@ -32,7 +34,7 @@
     "eslint": "^8.43.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
-    "husky": "^8.0.1",
+    "husky": "^8.0.0",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "pretty-quick": "^3.1.3",
