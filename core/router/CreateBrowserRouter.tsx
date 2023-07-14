@@ -10,7 +10,5 @@ export function CreateBrowserRouter({ routes }: {
     },
   });
 
-  return (
-    <RouterProvider router={router} />
-  )
+  return <RouterProvider router={router} />
 }
