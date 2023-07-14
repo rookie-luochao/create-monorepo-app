@@ -7,7 +7,8 @@
   "scripts": {
     "openapi:webapp": "pnpm --filter webapp run openapi",
     "dev:webapp": "pnpm --filter webapp run dev",
-    "dev:uiapp": "pnpm --filter uiapp run dev"
+    "dev:uiapp": "pnpm --filter uiapp run dev",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
